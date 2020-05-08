@@ -2253,6 +2253,24 @@ api_v2:
   - name: Screenboards
     url: /ja/api/v2/screenboards/
     identifier: Screenboards
+  - name: Security Monitoring
+    url: /ja/api/v2/security-monitoring/
+    identifier: Security Monitoring
+  - name: List rules
+    parent: Security Monitoring
+    url: list-rules
+  - name: Create a detection rule
+    parent: Security Monitoring
+    url: create-a-detection-rule
+  - name: Delete an existing rule
+    parent: Security Monitoring
+    url: delete-an-existing-rule
+  - name: Get a rule's details
+    parent: Security Monitoring
+    url: get-a-rules-details
+  - name: Update an existing rule
+    parent: Security Monitoring
+    url: update-an-existing-rule
   - name: Service Checks
     url: /ja/api/v2/service-checks/
     identifier: Service Checks
